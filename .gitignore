@@ -1,0 +1,15 @@
+# .gitignore
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
+# 忽略环境配置
+.env
+venv/
+
+# ！！！忽略大模型权重文件！！！
+model_weights/
+*.safetensors
+*.bin
+*.pth
